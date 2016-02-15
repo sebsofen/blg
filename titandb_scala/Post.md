@@ -18,3 +18,5 @@ libraryDependencies ++= Seq(
 ```
 
 Es soll TitanDB mit Cassandra und Elastic Search verwendet werden.
+
+
