@@ -1,4 +1,4 @@
-In Go können structs mit string tags annotiert werden.
+In Go können ```structs``` mit string tags annotiert werden.
 
 ```
 type User struct {
@@ -13,10 +13,10 @@ type User struct {
 
 Der ```bson``` tag kann beispielsweise genutzt werden, um dem mongodb Treiber zu sagen, wie mit den struct Feldern umzugehen ist.
 
-Bisher habe ich die durch Thrift generierten structs vor dem abspeichern in mongo umgewandelt zu eigenen neu definierten structs.
+Bisher habe ich die durch Thrift generierten ```structs``` vor dem abspeichern in mongo umgewandelt zu eigenen neu definierten ```structs```.
 Das alles, weil mongo die string tags braucht.
 
-Aber... Es gibt zum Glück die Möglichkeit in Thrift die structs, die für Go generiert werden vorher zu annotieren.
+Aber... Es gibt zum Glück die Möglichkeit in Thrift die ```structs```, die für Go generiert werden vorher zu annotieren.
 Beispiel:
 
 ```
